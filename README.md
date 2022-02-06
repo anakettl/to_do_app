@@ -4,6 +4,12 @@ O objetivo desse aplicativo é ser um gerenciador de tarefas do dia-à-dia. Foi 
 
 Você pode conferir o vídeo do funcionamento no seguinte link: https://youtu.be/RYE7AVo2OyU
 
+## Componentes
+* Text Input Edit Layout
+* ToolBar
+* Bottom Navigation View
+* Recycler View
+* Card View
 
 ## Funcionalidades
 - CRUD e autenticação de usuário utilizando Firebase Auth
