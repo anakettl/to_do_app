@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ana_clara_entrega_3.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_action_sobre"
+            app:destination="@id/action_sobre" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ana_clara_entrega_3.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.ana_clara_entrega_3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/bottomnavtarefa"
+        android:name="com.example.ana_clara_entrega_3.fragments.ListTarefaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_list_tarefa" >
+        <action
+            android:id="@+id/action_nav_listar_tarefasFragment_to_nav_criar_tarefasFragment"
+            app:destination="@id/nav_criar_tarefasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottomnavpagamento"
+        android:name="com.example.ana_clara_entrega_3.fragments.ListPagamentoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_list_pagamento" >
+        <action
+            android:id="@+id/action_bottomnavpagamento_to_nav_criar_pagamentosFragment"
+            app:destination="@id/nav_criar_pagamentosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottomnavagenda"
+        android:name="com.example.ana_clara_entrega_3.fragments.ListAgendaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_list_agenda" />
+
+    <fragment
+        android:id="@+id/action_sobre"
+        android:name="com.example.ana_clara_entrega_3.fragments.SobreFragment"
+        android:label=""
+        tools:layout="@layout/fragment_sobre"/>
+
+    <fragment
+        android:id="@+id/nav_listar_tarefasFragment"
+        android:name="com.example.ana_clara_entrega_3.fragments.ListTarefaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_list_tarefa">
+
+        <action
+            android:id="@+id/action_nav_listar_tarefasFragment_to_nav_criar_tarefasFragment"
+            app:destination="@id/nav_criar_tarefasFragment" />
+        <action
+            android:id="@+id/action_nav_listar_tarefasFragment_to_nav_editar_tarefasFragment"
+            app:destination="@id/nav_editar_tarefasFragment" />
+        <action
+            android:id="@+id/action_nav_listar_tarefasFragment_to_nav_editar_tarefasFragment2"
+            app:destination="@id/nav_editar_tarefasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_criar_tarefasFragment"
+        android:name="com.example.ana_clara_entrega_3.fragments.CriarTarefaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_criar_tarefa" >
+        <action
+            android:id="@+id/action_nav_criar_tarefasFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_criar_pagamentosFragment"
+        android:name="com.example.ana_clara_entrega_3.fragments.CriarPagamentoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_criar_pagamento" >
+
+        <action
+            android:id="@+id/action_nav_criar_pagamentosFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_editar_tarefasFragment"
+        android:name="com.example.ana_clara_entrega_3.fragments.EditarTarefaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_tarefa" >
+        <action
+            android:id="@+id/action_nav_editar_tarefasFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_editar_pagamentosFragment"
+        android:name="com.example.ana_clara_entrega_3.fragments.EditarPagamentoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_pagamento" >
+
+        <action
+            android:id="@+id/action_nav_editar_pagamentosFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_listar_pagamentosFragment"
+        android:name="com.example.ana_clara_entrega_3.fragments.ListPagamentoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_list_pagamento">
+
+
+        <action
+            android:id="@+id/action_nav_listar_pagamentosFragment_to_nav_criar_pagamentosFragment"
+            app:destination="@id/nav_criar_pagamentosFragment" />
+        <action
+            android:id="@+id/action_nav_listar_pagamentosFragment_to_nav_editar_pagamentosFragment"
+            app:destination="@id/nav_editar_pagamentosFragment" />
+    </fragment>
+
+</navigation>

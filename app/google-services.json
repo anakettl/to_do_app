@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "735069463898",
+    "project_id": "to-do-3019f",
+    "storage_bucket": "to-do-3019f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735069463898:android:2085447b7711b8fb103f63",
+        "android_client_info": {
+          "package_name": "com.example.ana_clara_entrega_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735069463898-usskou9jgj4tjgjmo262dufs4rmmklks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVBpB2p3TJ_IDnTiqA17dgBtQfYSeSwj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735069463898-usskou9jgj4tjgjmo262dufs4rmmklks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

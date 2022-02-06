@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ana_clara_entrega_4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sobre">Sobre</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="h1_to_do">To Do</string>
+    <string name="h1_login">Login</string>
+    <string name="h1_cadastrar">Cadastre-se</string>
+    <string name="h1_tarefa">Tarefa</string>
+    <string name="h1_pagamento">Pagamento</string>
+    <string name="h1_agenda">Agenda</string>
+    <string name="btn_criar">Criar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btnDeletarTarefa">Deletar</string>
+    <string name="btnEditarTarefa">Editar</string>
+
+    <string name="input_tarefa_name">Aula de Pw3</string>
+    <string name="input_tarefa_date">17/10/2021</string>
+    <string name="input_tarefa_hour">10:00</string>
+    <string name="input_tarefa_description">link da aula: meet.google.com/tzz-xzbz-wqs</string>
+
+    <string name="login_email">E-mail</string>
+    <string name="login_pwd">Senha</string>
+    <string name="conf_pwd">Confirme a Senha</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnCadastro">Cadastrar</string>
+    <string name="btnCancelar">Cancelar</string>
+
+
+    <string name="loren">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

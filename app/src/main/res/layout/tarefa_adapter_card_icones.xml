@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/dark_blue">
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/dark_blue"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="213dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571">
+
+            <TextView
+                android:id="@+id/textViewNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewData"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Data"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textViewHora"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hora"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewDescrição"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descrição"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btnEditarTarefa"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@color/dark_blue"
+                app:srcCompat="@drawable/edit"
+                tools:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/btnDeletarTarefa"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@color/dark_blue"
+                app:srcCompat="@drawable/delete"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColor="@color/dark_blue"
+            tools:visibility="invisible" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
